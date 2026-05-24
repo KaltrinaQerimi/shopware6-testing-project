@@ -1,0 +1,17 @@
+{
+  "name": "shopware6-e2e-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E test suite — guest checkout flow on Shopware 6 demo store",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
